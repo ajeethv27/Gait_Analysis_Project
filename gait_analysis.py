@@ -3,7 +3,7 @@ TENG Gait Analysis System
 =========================
 Professional ML pipeline for gait classification and bio-authentication
 
-Author: Your Name
+Author: Ajeeth
 Date: October 2025
 """
 
