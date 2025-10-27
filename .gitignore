@@ -1,0 +1,23 @@
+﻿--- Python ---
+Byte-compiled / optimized / DLL files
+pycache/
+*.py[cod]
+*$py.class
+--- Virtual Environment ---
+Ignore the virtual environment folder
+venv/
+.venv/
+ENV/
+env/
+--- Data ---
+Ignore the large master data folder
+User_Gait_Data_Master/
+User_Gait_Data_Master.zip
+--- Backups ---
+Ignore backup files created by fix_columns.py
+*.backup
+--- OS ---
+macOS
+.DS_Store
+Windows
+Thumbs.db
