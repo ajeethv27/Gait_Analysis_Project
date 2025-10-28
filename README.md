@@ -7,18 +7,18 @@ This repository contains the Python scripts and analysis for a Master's thesis o
 IMPORTANT: The dataset is too large for Git and is stored externally.
 
 Download the Data:
-Download the complete dataset (User_Gait_Data_Master.zip) from the link below:
-https://drive.google.com/file/d/119YLrW2UjjWO8pUIc35z5WU_bZfHetc7/view?usp=sharing
-Unzip the Data:
+Download the complete dataset (User\_Gait\_Data\_Master.zip) from the link below:
+https://drive.google.com/file/d/1vuGJWGcbMUhej5Bq59-X5XrQ-RPkV-gf/view?usp=drive\_linkUnzip the Data:
 Unzip the file into the root of this project folder. Your directory structure should look like this:
 
-Gait_Analysis_Project/
+Gait\_Analysis\_Project/
 ├── .gitignore
 ├── requirements.txt
-├── gait_analysis.py
-└── User_Gait_Data_Master/  <-- The folder you just unzipped
-    ├── User_Data_Labelled/
-    └── QOM/
+├── gait\_analysis.py
+└── User\_Gait\_Data\_Master/  <-- The folder you just unzipped
+├── User\_Data\_Labelled/
+└── QOM/
+
 
 
 2. Setup Environment (One Time)
@@ -28,16 +28,19 @@ First, create a clean virtual environment:
 python -m venv venv
 
 
+
 Next, activate it:
 
 Windows (PowerShell):
 
-.\venv\Scripts\Activate.ps1
+.\\venv\\Scripts\\Activate.ps1
+
 
 
 macOS / Linux:
 
 source venv/bin/activate
+
 
 
 3. Install Libraries (One Time)
@@ -47,8 +50,10 @@ With your environment active, install all required libraries:
 pip install -r requirements.txt
 
 
+
 4. Run Analysis
 
 To run the main analysis script:
 
-(venv) > python gait_analysis.py
+(venv) > python gait\_analysis.py
+
