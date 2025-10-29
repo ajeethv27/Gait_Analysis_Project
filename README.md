@@ -57,3 +57,6 @@ To run the main analysis script:
 
 (venv) > python gait\_analysis.py
 
+5.(Optionl) My Colab shared workplace
+https://colab.research.google.com/drive/1GFmrWjqkLsSQK7itQDQa8DPyf8beq1l7?usp=sharing
+
