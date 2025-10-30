@@ -1,0 +1,35 @@
+{
+  "qc": {
+    "n_rows": 886,
+    "n_subjects": 12,
+    "classes": [
+      "jump",
+      "run",
+      "stand",
+      "walk"
+    ],
+    "files_processed": 83,
+    "total_windows": 886,
+    "fs_list_summary": {
+      "count": 83,
+      "mean": 10893.24618737979,
+      "min": 10893.246187366773,
+      "max": 10893.246187379948
+    },
+    "durations_sec_summary": {
+      "count": 83,
+      "mean": 11.636055910843375,
+      "min": 4.193148600000001,
+      "max": 11.9992698
+    }
+  },
+  "missing_files": [
+    "S07STAND.csv"
+  ],
+  "params": {
+    "window_sec": 1.0,
+    "subject_norm": true,
+    "meta": "D:\\Gait\\data\\gait_labels_qom.csv",
+    "search_root": "D:\\Gait\\data"
+  }
+}
